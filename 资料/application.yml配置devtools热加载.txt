@@ -1,0 +1,10 @@
+spring
+  #devtools热加载
+  devtools:
+    restart:
+      #启用热加载
+      enabled: true
+      #添加那个目录的文件不需要restart
+      exclude: static/*
+      #添加那个目录的文件需要restart
+      additional-paths: src/main/java
